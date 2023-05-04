@@ -1,3 +1,7 @@
+# Запуск наших тестов
+
+ python /script_run.py /path/to/folder <кол-во юзеров> <host> <port> <login> <password>
+
 # Установка 
 https://loadtestweb.info/2017/10/17/install-apache-jmeter/
 
@@ -147,7 +151,6 @@ JMeter позволяет брать данные, необходимые для
     - Template — шаблон. Используется для извлечения сразу нескольких подстрок используя одно выражение. Например,
 
 
-    <a href="/fx/uni/ru.naumen.uni.published_jsp?uuid=corecl18gg9ig0000gv0dm47k8isnlio&activeComponent=[[AccessMatrix]]" id="[[AccessMatrix]]">
 
 Чтобы извлечь uuid для данной ссылки и ее идентификатор id в одну переменню matrixRef, можно применить выражение
 
